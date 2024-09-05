@@ -1,12 +1,13 @@
 import React from "react";
-import Header from '../components/Header';
+import Header from "../components/Header";
 import Footer from "../components/Footer";
+import MainContent from "../components/MainContent";
 
 export const Html = () => {
   return (
     <>
       <Header />
-      <main>HTML Page</main>
+      <MainContent name="HTML" />
       <Footer />
     </>
   );
