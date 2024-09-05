@@ -1,7 +1,7 @@
 import React from "react";
 
-const MainContent = ({ aaa }) => {
-  return <main>{aaa} Page</main>;
+const MainContent = ({ name }) => {
+  return <main>{name} Page</main>;
 };
 
 export default MainContent;
