@@ -1,10 +1,11 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import "./Header.css";
 
 export const Header = () => {
   return (
     <>
-      <header className="hide-when-mobile">
+      <header className="hide-when-mobile ali">
         <h1>
           <Link to="/">c4a.dev</Link>
         </h1>
@@ -76,7 +77,7 @@ export const Header = () => {
               HTML <i className="fas fa-plus" />
             </label>
             <input id="html" type="checkbox" />
-            <ul className="sub-div">
+            {/* <ul className="sub-div">
               <li>
                 <a href="">Full Course</a>
               </li>
@@ -86,14 +87,14 @@ export const Header = () => {
               <li>
                 <a href="">learn in 1h</a>
               </li>
-            </ul>
+            </ul> */}
           </div>
           <div className="main-div">
             <label htmlFor="css">
               CSS <i className="fas fa-plus" />
             </label>
             <input id="css" type="checkbox" />
-            <ul className="sub-div">
+            {/* <ul className="sub-div">
               <li>
                 <a href="">Full Course</a>
               </li>
@@ -117,18 +118,18 @@ export const Header = () => {
                   </li>
                 </ul>
               </li>
-            </ul>
+            </ul> */}
           </div>
           <div className="main-div">
             <label htmlFor="js">
               JavaScript <i className="fas fa-plus" />
             </label>
             <input id="js" type="checkbox" />
-            <ul className="sub-div">
+            {/* <ul className="sub-div">
               <li>
                 <a href="">coming soon🔥</a>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </header>
