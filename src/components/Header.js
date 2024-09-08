@@ -4,7 +4,7 @@ import "./Header.css";
 
 export const Header = () => {
   return (
-    <>
+    <div className="myheader">
       <header className="hide-when-mobile ali">
         <h1>
           <Link to="/">c4a.dev</Link>
@@ -65,7 +65,7 @@ export const Header = () => {
           </li>
         </ul>
       </header>
-      <header style={{ backgroundColor: "red" }} className="show-when-mobile">
+      <header className="show-when-mobile">
         <h1>c4a.dev</h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
@@ -133,7 +133,7 @@ export const Header = () => {
           </div>
         </div>
       </header>
-    </>
+    </div>
   );
 };
 

@@ -1,13 +1,17 @@
-.show-when-mobile {
+.myheader .show-when-mobile {
   display: none;
 }
 
+.myheader .ali {
+  background-color: teal;
+}
+
 @media (max-width: 800px) {
-  .show-when-mobile {
+  .myheader .show-when-mobile {
     display: block;
   }
 
-  .hide-when-mobile {
+  .myheader .hide-when-mobile {
     display: none;
   }
 }
