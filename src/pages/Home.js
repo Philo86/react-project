@@ -17,7 +17,6 @@ export const Home = () => {
         `}</style>
       </Helmet>
       <Header />
-      <h1>Amgad</h1>
       <MainContent name="Home" />
       <Footer />
     </>
