@@ -7,6 +7,7 @@ import Html from "./pages/Html";
 import Css from "./pages/Css";
 import Js from "./pages/Javascript";
 import { HelmetProvider } from "react-helmet-async";
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 
 const helmetContext = {};
 
@@ -43,3 +44,5 @@ root.render(
     </HelmetProvider>
   </React.StrictMode>
 );
+
+serviceWorkerRegistration.register();
